@@ -42,6 +42,7 @@ const plugins = [
 ];
 
 const nextConfig = {
+  output:"standalone",
   distDir: "build",
   swcMinify: true,
   webpack: (config, { isServer }) => {

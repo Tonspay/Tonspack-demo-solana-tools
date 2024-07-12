@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@bonfida/spl-name-service": "^0.1.40",
@@ -28,8 +29,8 @@
     "@solana/wallet-adapter-react-ui": "^0.9.34",
     "@solana/wallet-adapter-solflare": "^0.4.0",
     "@solana/wallet-adapter-sollet": "^0.8.0",
+    "@solana/wallet-adapter-tonspack": "link:../../adapter/wallet-adapter/packages/wallets/tonspack",
     "@solana/wallet-adapter-wallets": "^0.11.3",
-    "@solana/wallet-adapter-tonspack":"link:../../adapter/wallet-adapter/packages/wallets/tonspack",
     "@tailwindcss/typography": "^0.4.1",
     "@types/lodash.orderby": "^4.6.6",
     "daisyui": "^1.16.2",
@@ -54,6 +55,6 @@
     "eslint-config-next": "12.0.3",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19",
-    "typescript": "4.4.4"
+    "typescript": "^5.5.3"
   }
 }
